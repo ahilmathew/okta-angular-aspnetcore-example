@@ -20,7 +20,7 @@ steps:
       displayName: "Test"
       inputs:
         command: test
-        projects: 'Backend/*.sln'
+        projects: 'okta-angular-aspnetcore-example/Backend/Backend/*.csproj'
         arguments: '--configuration $(buildConfiguration)'
     - task: DotNetCoreCLI@2
       displayName: "Publish"

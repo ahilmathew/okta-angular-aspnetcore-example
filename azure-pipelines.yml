@@ -20,6 +20,6 @@ steps:
       displayName: "Test"
       inputs:
         command: test
-        projects: '**/Backend/Backend/*.csproj'
+        projects: './Backend/Backend/*.csproj'
         arguments: '--configuration $(buildConfiguration)'
 
